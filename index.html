@@ -2,9 +2,82 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <title>卢哥哥的家</title>
   </head>
   <body>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="self-inroduction">
+            <ul class="cebianlan">
+              <li>
+                <!-- 待完成 网站简单简介 -->
+                <a id="sample_inroduction">
+                  <img src="img/icon_wenhao.png" style="width:64px;margin:10px 20px;"/>
+                  <span class="font_style">简单介绍</span>
+                </a>
+              </li>
+              <!-- 邮箱 -->
+              <li class="mt50">
+                <a href="mailto:luchenwei9266@163.com">
+                  <img src="img/icon_mail.png" class="icon_style" />
+                  <span class="font_style">电子邮箱</span>
+                </a>
+              </li>
+              <!-- github -->
+              <li>
+                <a href="http://luchenwei9266.github.io">
+                  <img src="img/icon_github.png" class="icon_style" alt="luchenwei9266.github.io"/>
+                  <span class="font_style">github</span>
+                </a>
+              </li>
+              <!-- 个人简介 -->
+              <li>
+                <!-- 待完成 跳到个人简介 -->
+                <a href="#">
+                  <img src="img/icon_geren.png" class="icon_style" />
+                  <span class="font_style">个人简介</span>
+                </a>
+              </li>
+              <!-- 收缩按钮 -->
+              <li>
+                <div class="bottom_li" id="btn_buttom">
+                  <img src="img/icon_jiantou.png" class="bottom_icon" />
+                </div>
+              </li>
+            </ul>
+            <!-- ul End -->
+        </div>
+        <!-- self-inroduction End -->
+      </div>
+      <!-- col-md-2 End -->
+
+      <div class="cebianzhegai" id="zhegai_div"></div>
+
+    </div>
+    <!-- row End -->
+
+    <!-- 简单介绍 -->
+    <div class="message_div" id="message_txt">
+      <h2>简单介绍</h2>
+      <p>
+        当初趁热学了Bootstrap，本着学习了就要巩固的原则，所以就想着弄点实例来稳固一下，
+        所以本页面是基于Bootstrap3弄的。代码已经开源(但其实开源了估计几年也没多少个人看。。
+        哈哈)，可能代码在各方面比较来说比较挫。。以后有时间慢慢重构优化吧。。
+      </p>
+      <p>
+        在同时优化重构的过程中，顺别看看能不能弄出个Angular或者React版本的，把这两个新东西也
+        巩固一下，重温一下。还有SASS啊，typescript什么的。总之学了就要巩固嘛。。
+      </p>
+    </div>
+    <!-- 简单介绍 End -->
 
   </body>
 </html>
